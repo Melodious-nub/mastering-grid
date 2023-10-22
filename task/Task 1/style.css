@@ -74,4 +74,5 @@ body {
 /* first two is for rows and second two for column */
 .unnecessary-rows-container {
     grid: 100px 100px / 200px 200px;
+    margin-bottom: 50px;
 }

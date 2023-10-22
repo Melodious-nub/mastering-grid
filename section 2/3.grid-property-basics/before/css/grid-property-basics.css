@@ -1,3 +1,5 @@
+/* first one for grid row, after / will be grid column */
 .container {
     display: grid;
+    grid: 100px 100px / 200px 200px;
 }

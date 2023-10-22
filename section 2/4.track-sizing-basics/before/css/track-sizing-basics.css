@@ -3,17 +3,20 @@
 }
 
 .two-fixed-column-container {
-
+    grid-template-columns: 200px 200px;
 }
 
 .two-fixed-row-container {
-
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 100px 200px;
 }
 
 .two-percentage-column-container {
-
+    grid-template-columns: 40% 30%;
 }
 
 .two-percentage-row-container {
-
+    height: 400px;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 40% 50%;
 }
