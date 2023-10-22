@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 100px);
+}
+
+.column-start-bigger-than-end-container > .item:first-of-type {
+
+}
+
+.row-start-bigger-than-end-container > .item:first-of-type {
+
+}
+
+.both-values-using-span-container > .item:first-of-type {
+
+}
+
+.start-span-value-is-higher-than-end-container > .item:first-of-type {
+
+}
+
+.start-span-value-is-less-than-end-container > .item:first-of-type {
+
+}

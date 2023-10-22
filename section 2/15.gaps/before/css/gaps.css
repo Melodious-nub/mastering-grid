@@ -1,0 +1,56 @@
+body {
+    font-size: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.item {
+    border: 1px solid #F00;
+}
+
+.column-gap-container {
+
+}
+
+.row-gap-container {
+
+}
+
+.both-gap-container {
+
+}
+
+.combined-gap-container {
+
+}
+
+.percentage-gap-container {
+
+}
+
+.vw-gap-container {
+
+}
+
+.vh-gap-container {
+
+}
+
+.vmax-gap-container {
+
+}
+
+.vmin-gap-container {
+
+}
+
+.em-gap-container {
+
+}
+
+.rem-gap-container {
+
+}

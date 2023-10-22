@@ -1,0 +1,31 @@
+.container {
+    display: grid;
+}
+
+.fixed-min-max-column-container {
+
+}
+
+.fixed-min-max-row-container {
+    
+}
+
+.fixed-percentage-min-max-column-container {
+    
+}
+
+.fixed-fraction-min-max-column-container {
+    
+}
+
+.fixed-auto-min-max-column-container {
+    
+}
+
+.auto-fixed-min-max-column-container {
+    
+}
+
+.multiple-min-max-column-container {
+    
+}

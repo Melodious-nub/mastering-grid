@@ -1,0 +1,35 @@
+.container {
+    display: grid;
+}
+
+.auto-fit-container {
+    grid-template-columns: 300px;
+}
+
+.auto-fit-two-container {
+
+}
+
+.auto-fill-container {
+
+}
+
+.auto-fill-two-container {
+
+}
+
+.responsive-gallery-container {
+
+}
+
+@media (min-width: 700px) {
+    .auto-fit-container {
+        grid-template-columns: repeat(2, 300px);
+    }
+}
+
+@media (min-width: 1000px) {
+    .auto-fit-container {
+        grid-template-columns: repeat(3, 300px);
+    }
+}

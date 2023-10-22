@@ -1,0 +1,38 @@
+.normal-parent-div {
+    position: relative;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, max-content);
+    position: relative;
+}
+
+.positioned-item {
+    background: #F00;  
+}
+
+.column-based-container > .positioned-item {
+
+}
+
+.row-based-container > .positioned-item {
+
+}
+
+.cell-based-container > .positioned-item {
+
+}
+
+.multi-column-based-container > .positioned-item {
+
+}
+
+.multi-row-based-container > .positioned-item {
+
+}
+
+.area-based-container > .positioned-item {
+
+}

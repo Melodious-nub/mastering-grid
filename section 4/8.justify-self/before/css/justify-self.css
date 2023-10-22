@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.stretch-container > .item:first-of-type {
+
+}
+
+.start-container > .item:first-of-type {
+
+}
+
+.end-container > .item:first-of-type {
+
+}
+
+.center-container > .item:first-of-type {
+
+}
+
+.multiple-cells-center-container > .item:first-of-type {
+    grid-column-start: span 2;
+    grid-row-start: span 2;
+}

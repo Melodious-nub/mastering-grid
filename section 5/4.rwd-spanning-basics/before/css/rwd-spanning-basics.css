@@ -1,0 +1,29 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    grid-template-rows: max-content 480px max-content 1fr max-content;
+}
+
+body > header {
+
+}
+
+body > footer {
+    
+}
+
+#video-player-section {
+
+}
+
+#video-title-section {
+
+}
+
+#video-comments-section {
+
+}
+
+#related-videos-section {
+
+}

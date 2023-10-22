@@ -1,0 +1,34 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(3, 1fr);
+    width: 600px;
+}
+
+.start-container {
+
+}
+
+.end-container {
+
+}
+
+.center-container {
+
+}
+
+.stretch-container {
+
+}
+
+.space-around-container {
+
+}
+
+.space-between-container {
+
+}
+
+.space-evenly-container {
+
+}

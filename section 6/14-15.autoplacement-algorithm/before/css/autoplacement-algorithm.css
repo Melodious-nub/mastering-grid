@@ -1,0 +1,122 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 100px);
+    grid-auto-rows: 100px;
+    grid-auto-columns: 1fr;
+}
+
+.row-sparse-container > .item {
+    display: none;
+}
+
+/* ROW FLOW - SPARSE PACKING */
+/* PROCESS EXPLICITLY POSITIONED ITEMS FIRST */
+/* .row-sparse-container > .item:nth-of-type(4),
+.row-sparse-container > .item:nth-of-type(13),
+.row-sparse-container > .item:nth-of-type(19) {
+    display: grid;
+    place-items: center center;
+} */
+
+/* ADD ITEMS THAT ARE LOCKED TO ROW 1 */
+/* .row-sparse-container > .item:nth-of-type(7),
+.row-sparse-container > .item:nth-of-type(10),
+.row-sparse-container > .item:nth-of-type(22) {
+    display: grid;
+    place-items: center center;
+} */
+
+/* ADD ITEMS THAT ARE LOCKED TO ROW 2 */
+/* .row-sparse-container > .item:nth-of-type(21) {
+    display: grid;
+    place-items: center center;
+} */
+
+/* ADD ITEMS THAT ARE LOCKED TO ROW 4 */
+/* .row-sparse-container > .item:nth-of-type(3),
+.row-sparse-container > .item:nth-of-type(18) {
+    display: grid;
+    place-items: center center;
+} */
+
+/* ADD THE REMAINING ITEMS BY ORDER MODIFIED DOCUMENT ORDER */
+
+/* COLUMN FLOW - SPARSE PACKING */
+.column-sparse-container {
+    grid-auto-flow: column;
+}
+
+.column-sparse-container > .item {
+    display: none;
+}
+
+/* PROCESS EXPLICITLY POSITIONED ITEMS FIRST */
+/* .column-sparse-container > .item:nth-of-type(11),
+.column-sparse-container > .item:nth-of-type(14),
+.column-sparse-container > .item:nth-of-type(25) {
+    display: grid;
+    place-items: center center;
+} */
+
+/* ADD ITEMS THAT ARE LOCKED TO COLUMN 1 */
+/* .column-sparse-container > .item:nth-of-type(18),
+.column-sparse-container > .item:nth-of-type(23),
+.column-sparse-container > .item:nth-of-type(24) {
+    display: grid;
+    place-items: center center;
+} */
+
+/* ADD ITEMS THAT ARE LOCKED TO COLUMN 3 */
+/* .column-sparse-container > .item:nth-of-type(7),
+.column-sparse-container > .item:nth-of-type(13) {
+    display: grid;
+    place-items: center center;
+} */
+
+/* ADD ITEMS THAT ARE LOCKED TO COLUMN 4 */
+/* .column-sparse-container > .item:nth-of-type(3),
+.column-sparse-container > .item:nth-of-type(5) {
+    display: grid;
+    place-items: center center;
+} */
+
+/* ADD THE REMAINING ITEMS BY ORDER MODIFIED DOCUMENT ORDER */
+
+/* ROW FLOW - DENSE PACKING */
+.row-dense-container {
+    grid-auto-flow: row dense;
+}
+
+.row-dense-container > .item {
+    display: none;
+}
+
+/* PROCESS EXPLICITLY POSITIONED ITEMS FIRST */
+
+/* ADD ITEMS THAT ARE LOCKED TO ROW 1 */
+
+/* ADD ITEMS THAT ARE LOCKED TO ROW 2 */
+
+/* ADD ITEMS THAT ARE LOCKED TO ROW 4 */
+
+/* ADD THE REMAINING ITEMS BY ORDER MODIFIED DOCUMENT ORDER */
+
+/* COLUMN FLOW - DENSE PACKING */
+.column-dense-container {
+    grid-auto-flow: column dense;
+}
+
+.column-dense-container > .item {
+    display: none;
+}
+
+/* PROCESS EXPLICITLY POSITIONED ITEMS FIRST */
+
+/* ADD ITEMS THAT ARE LOCKED TO COLUMN 1 */
+
+/* ADD ITEMS THAT ARE LOCKED TO COLUMN 3 */
+
+/* ADD ITEMS THAT ARE LOCKED TO COLUMN 5 */
+
+/* ADD THE REMAINING ITEMS BY ORDER MODIFIED DOCUMENT ORDER */

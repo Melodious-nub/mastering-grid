@@ -1,0 +1,35 @@
+body {
+    font-size: 10px;
+}
+
+.container {
+    display: grid;
+}
+
+.percentage-fixed-min-max-container {
+
+}
+
+.viewport-fixed-min-max-container {
+
+}
+
+.em-fixed-min-max-container {
+
+}
+
+.rem-fixed-min-max-container {
+
+}
+
+.fraction-fixed-min-max-container {
+
+}
+
+.two-fractions-container {
+
+}
+
+.inner-min-max-container {
+
+}

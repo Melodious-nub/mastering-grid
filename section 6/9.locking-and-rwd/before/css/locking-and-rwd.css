@@ -1,0 +1,68 @@
+.container {
+    display: grid;
+}
+
+.rwd-example-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    grid-template-areas:
+        'a b b'
+        'a c d';
+}
+
+.rwd-example-container .item:first-of-type {
+    grid-area: a;
+}
+
+.rwd-example-container .item:nth-of-type(2) {
+    grid-area: b;
+}
+
+.rwd-example-container .item:nth-of-type(3) {
+    grid-area: c;
+}
+
+.rwd-example-container .item:last-of-type {
+    grid-area: d;
+}
+
+.line-name-example-container {
+
+}
+
+.line-name-example-container .item:first-of-type {
+
+}
+
+.line-name-example-container .item:nth-of-type(2) {
+
+}
+
+.line-name-example-container .item:nth-of-type(3) {
+
+}
+
+.line-name-example-container .item:last-of-type {
+
+}
+
+.rwd-error-row-container,
+.rwd-error-column-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    grid-template-areas:
+        'a b'
+        'e f';
+}
+
+.rwd-error-row-container > .item:first-of-type {
+    
+}
+
+.rwd-error-column-container {
+    grid-auto-flow: column;
+}
+
+.rwd-error-column-container > .item:first-of-type {
+
+}

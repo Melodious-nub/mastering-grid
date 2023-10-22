@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    width: 600px;
+}
+
+.two-fraction-column-container {
+
+}
+
+.two-fraction-row-container {
+
+}
+
+.one-two-fraction-column-container {
+
+}
+
+.one-three-fraction-column-container {
+
+}
+
+.two-four-fraction-column-container {
+
+}
+
+.fixed-width-fraction-column-container {
+
+}
+
+.pencentage-width-fraction-column-container {
+
+}
+
+.fixed-width-one-two-fraction-column-container {
+
+}
+
+.fixed-width-any-fraction-column-container {
+
+}

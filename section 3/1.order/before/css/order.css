@@ -1,0 +1,36 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.default-container > .item:nth-of-type(3) {
+    
+}
+
+.item-one-to-last-spot-container > .item:first-of-type {
+    
+}
+
+.last-item-to-first-spot-container > .item:last-of-type {
+    
+}
+
+.all-even-items-first-container > .item:nth-of-type(even) {
+    
+}
+
+.jumbled-container > .item:first-of-type {
+    
+}
+
+.jumbled-container > .item:nth-of-type(2) {
+    
+}
+
+.jumbled-container > .item:nth-of-type(3) {
+    
+}
+
+.jumbled-container > .item:last-of-type {
+    
+}

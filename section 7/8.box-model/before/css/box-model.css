@@ -1,0 +1,91 @@
+.container {
+    display: grid;
+}
+
+.item-width-container,
+.item-min-width-container,
+.item-max-width-container,
+.item-wide-padding-container {
+    grid-auto-columns: 300px;
+}
+
+
+.item-width-container .item {
+
+}
+
+.item-min-width-container .item {
+
+}
+
+.item-max-width-container .item {
+
+}
+
+.item-height-container,
+.item-min-height-container,
+.item-max-height-container,
+.item-high-padding-container {
+    grid-auto-rows: 300px;
+}
+
+.item-max-height-container {
+    margin-top: 170px;
+}
+
+.item-height-container .item {
+
+}
+
+.item-min-height-container .item {
+
+}
+
+.item-max-height-container .item {
+
+}
+
+.item-high-padding-container .item {
+
+}
+
+.item-margin-container {
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 80px;
+}
+
+.item-margin-container > .item:nth-of-type(5) {
+
+}
+
+.item-margin-container > .item:first-of-type {
+    grid-column: span 2;
+}
+
+.item-margin-container > .item:nth-of-type(3) {
+    grid-row: span 3;
+}
+
+.parent-div > .item:first-of-type {
+
+}
+
+.parent-div > .item:last-of-type {
+
+}
+
+.no-margin-collapse-container > .item:first-of-type {
+
+}
+
+.no-margin-collapse-container > .item:last-of-type {
+
+}
+
+.center-grid-item-container {
+    grid-auto-rows: 100px;
+}
+
+.center-grid-item-container > .item:first-of-type {
+
+}

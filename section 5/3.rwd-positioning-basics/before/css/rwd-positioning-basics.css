@@ -1,0 +1,39 @@
+.container {
+    display: grid;
+}
+
+#item-a {
+
+}
+
+#item-b {
+
+}
+
+#item-c {
+
+}
+
+#item-d {
+
+}
+
+#item-e {
+
+}
+
+#item-f {
+
+}
+
+@media (min-width: 768px) {
+    .container {
+
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        
+    }
+}
