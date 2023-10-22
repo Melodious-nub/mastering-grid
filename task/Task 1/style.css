@@ -71,9 +71,7 @@ body {
     grid-template-columns: 200px 200px 200px 200px 200px;
 }
 
+/* first two is for rows and second two for column */
 .unnecessary-rows-container {
-    height: 500px;
-    margin-bottom: 150px;
-    grid-template-columns: 200px 200px;
-    grid-template-rows: 100px 100px 100px;
+    grid: 100px 100px / 200px 200px;
 }
